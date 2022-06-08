@@ -24,4 +24,5 @@ void main() {
 	int res = pack4Chars2Int('a', 'b', 'c', 'd');
 	
 	printf("%d\n", checkEvenParity(0b1100011100001100));
+	printf("%d\n", checkEvenParity(0b0000000000011000));
 }
